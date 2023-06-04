@@ -1,0 +1,102 @@
+:root {
+    --bg-color: #E8D8BE;
+    --form-bg-color: #FCFAF7;
+    --h1-bg-color: #2E2D4D;
+    --body-text-color: #11111D;
+    --accent-color1: #B02E0C;
+    --accent-color2: #7180B9;
+    --error-color:#ff3333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--bg-color);
+    color: var(--body-text-color);
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: var(--form-bg-color);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 20px -5px rgba(77,77,86,1);
+    -moz-box-shadow: 10px 10px 20px -5px rgba(77,77,86,1);
+    box-shadow: 10px 10px 20px -5px rgba(77,77,86,1);
+
+}
+
+.container h1 {
+    background-color: var(--h1-bg-color);
+    color: var(--form-bg-color);
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+label {
+    margin: .5rem;
+}
+
+input {
+    width: 50%;
+    font-family: rubik, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+button {
+    font-family: rubik, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--accent-color1);
+    color: var(--form-bg-color);
+    cursor: pointer;
+}
+
+#qrcode-output {
+    padding: 2rem 0;
+    display: none;
+    font-weight: bold;
+    color: var(--error-color);
+}
+
+img {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#download-link {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: var(--accent-color2);
+    color: var(--form-bg-color);
+    text-decoration: none;
+}

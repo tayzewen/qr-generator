@@ -1,0 +1,64 @@
+/* Mobile Devices */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    label, button, a {
+        font-size: 1rem;
+    }
+
+    /* #qrcode-output {
+        padding: 2rem 0;
+    } */
+
+    img {
+        width: 50%;
+    }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 820px) {
+    .container {
+        width: 75%;
+    }
+
+    input {
+        width: 75%;
+        font-size: 1.5rem;
+    }
+
+    label, button, a {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 40%;
+    }
+
+}
+
+/* Laptops, Small Screens */
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+
+}
+
+/* Desktops, Large Screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* XL Screens */
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+}
+
+/* XXL Screens */
+@media screen and (min-width: 1301px) {
+
+}
